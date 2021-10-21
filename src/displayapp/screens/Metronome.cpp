@@ -28,7 +28,7 @@ Metronome::Metronome(DisplayApp* app, Controllers::MotorController& motorControl
   lv_obj_set_event_cb(bpmArc, eventHandler);
   lv_arc_set_bg_angles(bpmArc, 0, 270);
   lv_arc_set_rotation(bpmArc, 135);
-  lv_arc_set_range(bpmArc, 40, 220);
+  lv_arc_set_range(bpmArc, 32, 320);
   lv_arc_set_value(bpmArc, bpm);
   lv_obj_set_size(bpmArc, 210, 210);
   lv_arc_set_adjustable(bpmArc, true);
